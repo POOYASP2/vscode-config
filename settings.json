@@ -1,0 +1,96 @@
+{
+  "workbench.iconTheme": "helium-icon-theme",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "explorer.confirmDelete": false,
+  "terminal.integrated.fontFamily": "monospace",
+  "workbench.sideBar.location": "right",
+  "editor.lineHeight": 1.75,
+  "editor.suggestFontSize": 15,
+  "editor.suggestLineHeight": 28,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.suggestSelection": "first",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.suggest.completeFunctionCalls": true,
+  "editor.fontLigatures": "'liga', 'dlig', 'ss01', 'ss02'",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "extensions.ignoreRecommendations": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "git.confirmSync": false,
+  "files.eol": "\n",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.cursorSurroundingLines": 7,
+  "editor.fontFamily": "'Monaspace Neon', monospace",
+  "workbench.welcomePage.walkthroughs.openOnInstall": false,
+  "workbench.startupEditor": "none",
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "git.allowForcePush": true,
+  "explorer.confirmPasteNative": false,
+  "zenMode.showTabs": "single",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vim.foldfix": true,
+  "vim.highlightedyank.enable": true,
+  "vim.useSystemClipboard": true,
+  "vim.smartRelativeLine": true,
+  "vim.leader": "\\",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "q"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.splitEditor"]
+    },
+    {
+      "before": ["<leader>", "<tab>"],
+      "commands": ["workbench.action.closeEditorsInGroup"]
+    },
+    {
+      "before": ["<leader>", "t"],
+      "commands": ["workbench.files.action.focusFilesExplorer"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["workbench.action.showAllEditors"]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["<C-j>"],
+      "commands": ["selectNextSuggestion"]
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": ["selectPrevSuggestion"]
+    }
+  ],
+  "githubPullRequests.pullBranch": "never",
+  "workbench.editor.untitled.labelFormat": "name",
+  "workbench.editor.wrapTabs": true,
+  "workbench.colorTheme": "GrunBoxTheme"
+}
